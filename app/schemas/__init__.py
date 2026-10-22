@@ -1,3 +1,11 @@
+from app.schemas.product import ProductCreate, ProductOut, ProductUpdate
 from app.schemas.user import Token, UserCreate, UserOut
 
-__all__ = ["UserCreate", "UserOut", "Token"]
+__all__ = [
+    "UserCreate",
+    "UserOut",
+    "Token",
+    "ProductCreate",
+    "ProductUpdate",
+    "ProductOut",
+]
